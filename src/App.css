@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.edit-card-wrapper,
+.login-width {
+  width: 500px;
+
+}
+
+body {
+  background-color:#d0ecf1!important;
+}
+
+.wrap {
+  width: 300px;
+  padding: 20px;
+}
+
+.card-wrap,
+.login-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-bg,
+.hash-bg {
+  background-color: rgb(12, 12, 12) !important;
+}
+
+.op_Cards{
+  width: 250px!important;
+  height: 250px!important;
+}
+
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

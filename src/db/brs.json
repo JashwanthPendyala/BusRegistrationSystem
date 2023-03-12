@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "jashu",
+      "pass": "jashu",
+      "type": "admin"
+    },
+    {
+      "id": 2,
+      "uname": "venu",
+      "pass": "venu",
+      "type": "cus"
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "date": "28-2-2023",
+      "seats": [
+        10,
+        12
+      ]
+    }
+  ]
+}

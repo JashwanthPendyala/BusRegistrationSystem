@@ -8,18 +8,21 @@ class PmsServices {
     getAllBuses() {
         return axios.get(BASE_Booking_URL);
     }
-    getBusById(id) {
-        return axios.get(BASE_Booking_URL + "/" + id)
-    }
-    updateBus(id, bus) {
-        return axios.put(BASE_Booking_URL + "/" + id, bus)
-    }
+    // getBusById(id) {
+    //     return axios.get(BASE_Booking_URL + "/" + id)
+    // }
+    // updateBus(id, bus) {
+    //     return axios.put(BASE_Booking_URL + "/" + id, bus)
+    // }
 
-    deleteBus(id) {
-        return axios.delete(BASE_Booking_URL + "/" + id)
-    }
-    addBus(bus) {
-        return axios.post(BASE_Booking_URL, bus)
+    // deleteBus(id) {
+    //     return axios.delete(BASE_Booking_URL + "/" + id)
+    // }
+    // addBus(bus) {
+    //     return axios.post(BASE_Booking_URL, bus)
+    // }
+    updatedBookedSeats(id,seats) {
+        return axios.patch(BASE_Booking_URL + "/" + id,seats)
     }
 
 
